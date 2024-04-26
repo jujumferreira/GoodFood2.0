@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/azul"
+    android:orientation="vertical"
     tools:context=".LoginActivity">
 
     <ImageView
         android:layout_width="130dp"
         android:layout_height="100dp"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/food"
-        />
+        android:layout_marginTop="20dp"
+        android:src="@drawable/food" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,9 +22,7 @@
         android:layout_margin="15dp"
         android:fontFamily="@font/happy_monkey"
         android:text="GoodFood"
-        android:textSize="23dp"
-        />
-
+        android:textSize="23dp" />
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -33,6 +30,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Usuário"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/person">
 
@@ -45,11 +46,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-<com.google.android.material.textfield.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Senha"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/lock">
 
@@ -64,11 +69,10 @@
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginTop="30dp"
         android:layout_gravity="center_horizontal"
-        android:text="Login"
+        android:layout_marginTop="30dp"
         android:backgroundTint="#2C74B3"
-        />
+        android:text="Login" />
 
     <TextView
         android:layout_width="250dp"

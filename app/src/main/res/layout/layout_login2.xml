@@ -28,8 +28,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        borde
         android:hint="Usuário"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/person">
 
@@ -46,6 +49,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Email"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/email">
 
@@ -62,6 +69,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Senha"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/lock">
 
@@ -79,6 +90,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:hint="Confime sua Senha"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusTopStart="30dp"
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/lock">
 
